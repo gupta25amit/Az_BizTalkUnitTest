@@ -1,0 +1,24 @@
+<ns0:CustomerOrder xmlns:ns0="http://Timewave.BizTalkUnit.Sample.SourceSchema">
+  <Forename>Tycho</Forename>
+  <Surname>Lien</Surname>
+  <CustomerId>10000001</CustomerId>
+  <OrderTotal>1000.00</OrderTotal>
+  <PaymentStatus>Paid</PaymentStatus>
+  <OrderLines>
+    <Line>
+      <ItemId>1234</ItemId>
+      <ItemQty>1</ItemQty>
+      <PriceAtOrder>399.99</PriceAtOrder>
+    </Line>
+    <Line>
+      <ItemId>2345</ItemId>
+      <ItemQty>1</ItemQty>
+      <PriceAtOrder>100.01</PriceAtOrder>
+    </Line>
+    <Line>
+      <ItemId>3456</ItemId>
+      <ItemQty>1</ItemQty>
+      <PriceAtOrder>500.00</PriceAtOrder>
+    </Line>
+  </OrderLines>
+</ns0:CustomerOrder>

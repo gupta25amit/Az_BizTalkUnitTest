@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C231567-3943-4900-AD04-54529B4B67D2}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,6 +15,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timewave.BizTalkUnit.Sample.Tests", "Timewave.BizUnit.Sample.Tests\Timewave.BizTalkUnit.Sample.Tests.csproj", "{CFE501E6-C339-4D5C-9371-9C9D32101DCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject2", "UnitTestProject2\UnitTestProject2.csproj", "{0951DC37-0F35-4098-B4BA-9EB87C6390D5}"
+EndProject
+Project("{8727FEA9-91DB-4FB1-952D-E73D021F4F57}") = "BizTalkServerApplication1", "BizTalkServerApplication1\BizTalkServerApplication1.btaproj", "{9605C475-D3BC-46E4-A6F6-DF9D71B83139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{0951DC37-0F35-4098-B4BA-9EB87C6390D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0951DC37-0F35-4098-B4BA-9EB87C6390D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0951DC37-0F35-4098-B4BA-9EB87C6390D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9605C475-D3BC-46E4-A6F6-DF9D71B83139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9605C475-D3BC-46E4-A6F6-DF9D71B83139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9605C475-D3BC-46E4-A6F6-DF9D71B83139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9605C475-D3BC-46E4-A6F6-DF9D71B83139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

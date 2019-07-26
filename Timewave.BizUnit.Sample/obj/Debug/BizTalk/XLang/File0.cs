@@ -150,7 +150,7 @@ namespace Timewave.BizUnit.Sample
         }
         #endregion // port reflection support
     }
-    //#line 258 "C:\Users\amigupta7\Desktop\Amit\Project\POC\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\Orchestrations\ProcessOrder.odx"
+    //#line 258 "C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\Orchestrations\ProcessOrder.odx"
     [Microsoft.XLANGs.BaseTypes.StaticSubscriptionAttribute(
         0, "OrderPort", "Operation_1", -1, -1, true
     )]
@@ -624,11 +624,6 @@ namespace Timewave.BizUnit.Sample
                 ProcessOrder __svc__ = (ProcessOrder)_service;
                 __ProcessOrder_root_0 __ctx0__ = (__ProcessOrder_root_0)(__svc__._stateMgrs[0]);
 
-                if (__svc__.PickListPort != null)
-                {
-                    __svc__.PickListPort.Close(this, null);
-                    __svc__.PickListPort = null;
-                }
                 if (__svc__.OrderPort != null)
                 {
                     __svc__.OrderPort.Close(this, null);
@@ -638,6 +633,11 @@ namespace Timewave.BizUnit.Sample
                 {
                     __svc__.SummaryPort.Close(this, null);
                     __svc__.SummaryPort = null;
+                }
+                if (__svc__.PickListPort != null)
+                {
+                    __svc__.PickListPort.Close(this, null);
+                    __svc__.PickListPort = null;
                 }
                 base.Finally();
             }
@@ -679,6 +679,11 @@ namespace Timewave.BizUnit.Sample
                 ProcessOrder __svc__ = (ProcessOrder)_service;
                 __ProcessOrder_1 __ctx1__ = (__ProcessOrder_1)(__svc__._stateMgrs[1]);
 
+                if (__ctx1__ != null && __ctx1__.__OrderMessage != null)
+                {
+                    __ctx1__.UnrefMessage(__ctx1__.__OrderMessage);
+                    __ctx1__.__OrderMessage = null;
+                }
                 if (__ctx1__ != null && __ctx1__.__OrderSummaryMessage != null)
                 {
                     __ctx1__.UnrefMessage(__ctx1__.__OrderSummaryMessage);
@@ -688,11 +693,6 @@ namespace Timewave.BizUnit.Sample
                 {
                     __ctx1__.UnrefMessage(__ctx1__.__PickListMessage);
                     __ctx1__.__PickListMessage = null;
-                }
-                if (__ctx1__ != null && __ctx1__.__OrderMessage != null)
-                {
-                    __ctx1__.UnrefMessage(__ctx1__.__OrderMessage);
-                    __ctx1__.__OrderMessage = null;
                 }
                 base.Finally();
             }
@@ -854,8 +854,8 @@ namespace Timewave.BizUnit.Sample
         {
             Microsoft.XLANGs.Core.Segment __seg__ = _segments[0];
             Microsoft.XLANGs.Core.Context __ctx__ = (Microsoft.XLANGs.Core.Context)_stateMgrs[0];
-            __ProcessOrder_1 __ctx1__ = (__ProcessOrder_1)_stateMgrs[1];
             __ProcessOrder_root_0 __ctx0__ = (__ProcessOrder_root_0)_stateMgrs[0];
+            __ProcessOrder_1 __ctx1__ = (__ProcessOrder_1)_stateMgrs[1];
 
             switch (__seg__.Progress)
             {
@@ -901,8 +901,8 @@ namespace Timewave.BizUnit.Sample
             Microsoft.XLANGs.Core.Envelope __msgEnv__ = null;
             Microsoft.XLANGs.Core.Segment __seg__ = _segments[1];
             Microsoft.XLANGs.Core.Context __ctx__ = (Microsoft.XLANGs.Core.Context)_stateMgrs[1];
-            __ProcessOrder_1 __ctx1__ = (__ProcessOrder_1)_stateMgrs[1];
             __ProcessOrder_root_0 __ctx0__ = (__ProcessOrder_root_0)_stateMgrs[0];
+            __ProcessOrder_1 __ctx1__ = (__ProcessOrder_1)_stateMgrs[1];
 
             switch (__seg__.Progress)
             {

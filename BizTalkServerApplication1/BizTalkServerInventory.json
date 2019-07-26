@@ -1,0 +1,22 @@
+﻿{
+  "$schema": "C:\\Program Files (x86)\\Microsoft BizTalk Server 2016\\Developer Tools\\BizTalkServerAppplicationSchema.json",
+  "BizTalkAssemblies": [
+  ],
+  "BindingsFiles": [
+    {
+      "Name": "Binding",
+      "Path": "bindings\\Binding.xml"
+    }
+  ],
+  "Assemblies": [
+  ],
+  "PreProcessingScripts": [
+  ],
+  "PostProcessingScripts": [
+  ],
+  "Files": [
+  ],
+  "DeploymentSequence": [
+    "Binding"
+  ]
+}

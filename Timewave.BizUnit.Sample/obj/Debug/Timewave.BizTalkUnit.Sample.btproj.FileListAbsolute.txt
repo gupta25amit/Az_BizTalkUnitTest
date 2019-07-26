@@ -12,3 +12,10 @@ C:\Users\amigupta7\Desktop\Amit\Project\POC\Timewave.BizUnit.Sample\Timewave.Biz
 C:\Users\amigupta7\Desktop\Amit\Project\POC\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
 C:\Users\amigupta7\Desktop\Amit\Project\POC\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\obj\Debug\Timewave.BizTalkUnit.Sample.dll
 C:\Users\amigupta7\Desktop\Amit\Project\POC\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\Timewave.BizUnit.Sample\obj\Debug\Timewave.BizTalkUnit.Sample.pdb
+C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\bin\Debug\Timewave.BizTalkUnit.Sample.dll
+C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\bin\Debug\Timewave.BizTalkUnit.Sample.pdb
+C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\bin\Debug\Microsoft.BizTalk.TestTools.dll
+C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\obj\Debug\Timewave.BizTalkUnit.Sample.dll
+C:\Users\amigupta7\Desktop\Amit\Project\GitRepo\Az_BizTalkUnitTest\Timewave.BizUnit.Sample\obj\Debug\Timewave.BizTalkUnit.Sample.pdb

@@ -11,7 +11,7 @@
     <GenericProcessing>true</GenericProcessing>
     <RootNamespace>Timewave.BizTalkUnit.Sample</RootNamespace>
     <AssemblyName>Timewave.BizTalkUnit.Sample</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <BpelCompliance>True</BpelCompliance>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -33,6 +33,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -102,6 +103,7 @@
     </Schema>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BizTalkTest.zip" />
     <None Include="Timewave.BizTalkUnit.Sample.snk" />
   </ItemGroup>
   <ItemGroup>
